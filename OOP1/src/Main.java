@@ -50,7 +50,7 @@ public class Main {
 		corporateCustomer.setTaxNumber("111111111");
 		corporateCustomer.setCustmoerNumber("12415");
 		
-		
+		Customer[] customers = {individualCustomer,corporateCustomer};
 		
 	}
 
