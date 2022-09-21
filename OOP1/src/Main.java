@@ -37,7 +37,18 @@ public class Main {
 		
 		
 		
+		IndividualCustomer individualCustomer = new IndividualCustomer();
+		individualCustomer.setCustmoerNumber("12354");
+		individualCustomer.setPhone("05000000000");
+		individualCustomer.setFirstName("Umutcan");
+		individualCustomer.setLastName("Özer");
 		
+		CorporateCustomer corporateCustomer = new CorporateCustomer();
+		corporateCustomer.setId(2);
+		corporateCustomer.setCompanyName("Kodlama.io");
+		corporateCustomer.setPhone("05000000000");
+		corporateCustomer.setTaxNumber("111111111");
+		corporateCustomer.setCustmoerNumber("12415");
 		
 		
 		
