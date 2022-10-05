@@ -1,7 +1,12 @@
 package oopWithNLayeredApp.dataAccess;
 
-public class JdbcProductDao {
+import oopWithNLayeredApp.entities.Product;
 
+public class JdbcProductDao {
+	public void add(Product product) {
+		//only db access codes... SQL
+		System.out.println("Added to database using JDBC");
+	}
 }
 
-//22.00
+
